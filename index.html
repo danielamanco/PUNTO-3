@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PUNTO 3</title>
+</head>
+
+<body>
+    <button>onclick="Saludar ()">Saludar</button>
+
+
+    <label for="nombre">Ingresa tu nombre: </label>
+    <input type="text" id="nombreInput">
+    <button onclick="saludar()">Saludar</button>
+    <script>
+        function saludar() {
+            var nombre = document.getElementById("nombreInput").value;
+            if (nombre) {
+                console.log("Hola, " + nombre);
+
+            }
+        }
+    </script>
+</body>
+
+</html>
